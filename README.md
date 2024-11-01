@@ -47,11 +47,11 @@ ________________________________________
 ________________________________________
 ## How to Run
 ### 1.	First, we start Hadoop HDFS Kafka and Zookeeper.
- Start-dfs.sh      # to start HDFS
- cd $KAFKA_HOME    # entering kafka path
- bin/zookeeper-server-start.sh config/zookeeper.properties     # starting zookeeper
- cd $KAFKA_HOME    # entering kafka path
- bin/kafka-server-start.sh config/server.properties            # starting kafka
+Start-dfs.sh      # to start HDFS
+cd $KAFKA_HOME    # entering kafka path
+bin/zookeeper-server-start.sh config/zookeeper.properties     # starting zookeeper
+cd $KAFKA_HOME    # entering kafka path
+bin/kafka-server-start.sh config/server.properties            # starting kafka
 
 ![image](https://github.com/user-attachments/assets/2f63a0df-b563-4d53-9242-72d8b8d3a57c)
 
