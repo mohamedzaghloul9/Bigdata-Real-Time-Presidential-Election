@@ -9,10 +9,7 @@ Pipeline Flow:
 1.	Data Generation: An API generates voter data including ID, gender, age, state, and candidate decision.
 2.	Data Ingestion to Kafka: The generated data is streamed into a Kafka topic (voter_data), serving as a message broker to allow seamless data flow.
 3.	Data Storage in HDFS: Using a Flume agent, the data from Kafka is continuously ingested into HDFS, enabling robust data storage and easy access for large-scale data processing.
-4.	Data Processing with Spark Streaming: Spark Streaming reads the data directly from Kafka, processes it in real-time, and computes key metrics like:
-o	Vote count per candidate
-o	Vote demographics by age, gender, and state
-o	Total vote count and percentage distribution
+4.	Data Processing with Spark Streaming: Spark Streaming reads the data directly from Kafka, processes it in real-time, and computes key metrics
 5.	Real-Time Visualization in Streamlit: The processed data is passed to Streamlit, where it’s dynamically visualized. Key insights include live tracking of the winning candidate, demographics, and geographic distribution of votes.
 
 
