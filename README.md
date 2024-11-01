@@ -53,4 +53,3 @@ ________________________________________
 5.	Launch Streamlit to visualize the real-time data.
 ________________________________________
 This project exemplifies end-to-end data engineering, combining real-time data generation, processing, and visualization to mimic election tracking at scale. It demonstrates the practical application of big data tools and stream processing in real-world scenarios, with implications for multiple industries beyond elections.
-________________________________________
