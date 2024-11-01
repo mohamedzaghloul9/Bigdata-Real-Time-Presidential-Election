@@ -46,26 +46,11 @@ ________________________________________
 •	Plotly & Matplotlib: Custom data visualizations
 ________________________________________
 ## How to Run
-### 1.	First, we start Hadoop HDFS Kafka and Zookeeper.
-Start-dfs.sh      # to start HDFS
-cd $KAFKA_HOME    # entering kafka path
-bin/zookeeper-server-start.sh config/zookeeper.properties     # starting zookeeper
-cd $KAFKA_HOME    # entering kafka path
-bin/kafka-server-start.sh config/server.properties            # starting kafka
-
-![image](https://github.com/user-attachments/assets/2f63a0df-b563-4d53-9242-72d8b8d3a57c)
-
-
-python /home/bigdata/Pystreaming/API.py
-curl -N http://localhost:5000/api/stream_votes
-The API Code Are attached in this Repo
-
-3.	Start Kafka and produce data to the voter_data topic.
-
-
-5.	Deploy the Flume Agent to pull from Kafka and store data in HDFS.
-6.	Run Spark Streaming to process data from Kafka.
-7.	Launch Streamlit to visualize the real-time data.
+1.Set up the API to begin data generation.
+2.Start Kafka and produce data to the voter_data topic.
+3.Deploy the Flume Agent to pull from Kafka and store data in HDFS.
+4.Run Spark Streaming to process data from Kafka.
+5.Launch Streamlit to visualize the real-time data.
 ________________________________________
 This project exemplifies end-to-end data engineering, combining real-time data generation, processing, and visualization to mimic election tracking at scale. It demonstrates the practical application of big data tools and stream processing in real-world scenarios, with implications for multiple industries beyond elections.
 ________________________________________
