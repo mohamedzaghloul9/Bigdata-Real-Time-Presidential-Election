@@ -1,4 +1,4 @@
-# Real-Time Presidential Election Visualization and Analysis
+# Real-Time Presidential Election Processing and Analysis
 ## Project Overview
 This project simulates a real-time presidential election data pipeline, allowing for live updates and data analysis. Leveraging a custom API for data generation, Kafka for data streaming, HDFS for data storage, Spark Streaming for processing, and Streamlit for visualization, this setup provides a comprehensive look at how data engineering can support real-world election analytics.
 ________________________________________
