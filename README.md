@@ -15,8 +15,8 @@ o	Vote demographics by age, gender, and state
 o	Total vote count and percentage distribution
 5.	Real-Time Visualization in Streamlit: The processed data is passed to Streamlit, where it’s dynamically visualized. Key insights include live tracking of the winning candidate, demographics, and geographic distribution of votes.
 
-![Project_FlowChart drawio](https://github.com/user-attachments/assets/0edc250c-e157-4ff6-958e-77c2091ebd1c)
 
+![project_flowchart](https://github.com/user-attachments/assets/c9a516d0-8444-4da8-a84a-c11a2114d380)
 
 ________________________________________
 Components
